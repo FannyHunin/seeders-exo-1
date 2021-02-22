@@ -33,6 +33,7 @@
                   @endforeach
                 </tbody>
               </table>
+              <a href="/student/destroyAll" class="btn btn-danger">Delete All</a>
         </section>
     </div>
 

@@ -93,4 +93,9 @@ class StudentController extends Controller
         $destroy->delete();
         return redirect('/');
     }
+
+    public function destroyAll(){
+        Student::truncate();
+        return redirect('/');
+    }
 }
